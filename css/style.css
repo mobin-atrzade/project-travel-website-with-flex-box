@@ -263,3 +263,80 @@ article img {
   font-weight: 400;
   color: #aab1b7;
 }
+.mail-form {
+  display: flex;
+  flex-direction: column;
+}
+.mail-form input {
+  width: 40vw;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.newsletter-btn {
+  background-color: #ff4a52;
+  color: #fff;
+  padding: 18px 12px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.video {
+  background-image: url(../images/video.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  padding: 130px 0;
+  margin: 15px 0;
+  width: 100%;
+  position: relative;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  background-color: #040e27;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.2;
+}
+.video-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 100;
+  position: relative;
+}
+.video-container h3 {
+  font-family: "Nothing You Could Do";
+  font-weight: 400;
+  font-size: 7vw;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.video-button {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #1ec6b6;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.video-button:hover {
+  background-color: #ff4a52;
+}
+.video-button a {
+  color: #fff;
+}

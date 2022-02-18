@@ -54,4 +54,16 @@
     flex-direction: row;
     justify-content: center;
   }
+  .news-letter-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mail-form {
+    flex-direction: row;
+    display: block;
+  }
+  .news-letter-text {
+    margin-top: 0;
+    margin-right: 20px;
+  }
 }
