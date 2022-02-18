@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ff4a52;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+li:hover {
+  color: #ff4a52;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.d-flex {
+  display: flex !important;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+.font-15 {
+  font-size: 15px;
+}
+header {
+  position: relative;
+  background-color: #ffffff;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+nav li {
+  display: none;
+  margin-right: 35px;
+  font-size: 1.3em;
+  margin-top: 13px;
+}
+.search-icon {
+  justify-content: center;
+  align-items: center;
+}
+.search-icon a {
+  color: black;
+}
+.drop-down-menu a {
+  color: black;
+}
+.slider {
+  background-image: url(../images/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+}
+.slider-text {
+  height: 45vw;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.slider-text h3 {
+  font-size: 10vw;
+  font-family: "Nothing You Could Do";
+  font-weight: 400;
+  color: white;
+  line-height: 10vw;
+}
+.slider-text p {
+  font-size: 2.7vw;
+  font-weight: 400;
+  color: white;
+}
+.slider-btn {
+  background-color: #1ec6b6;
+  color: white;
+  font-size: 1.7vw;
+  border: 0;
+  outline: 0;
+  padding: 1vw 1.5vw;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.slider-btn:hover {
+  background-color: #ff4a52;
+  color: white !important;
+}
